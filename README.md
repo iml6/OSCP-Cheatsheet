@@ -726,6 +726,7 @@ hydra -l uname -P passwords.txt <IP> ssh #'-L' for usernames list, '-l' for user
 ```
 
 ## SMB enumeration
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb
 
 ```bash
 sudo nbtscan -r 192.168.50.0/24 #IP or range can be provided
